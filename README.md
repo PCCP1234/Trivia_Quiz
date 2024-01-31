@@ -14,7 +14,7 @@ Install the Live Server extension for Visual Studio Code.
 1. Clone the repository to your local machine:
 
     ```bash
-   git clone https://github.com/PCCP1234/Gama_Space_Invaders.git
+   git clone https://github.com/PCCP1234/Trivia_Quiz.git
     ```
 
 2. Right-click on the HTML file and select "Open with Live Server."
