@@ -13,13 +13,13 @@ define(["views/menu-view"],function (menuView) {
     const difficulty = difficultyInput ? difficultyInput.value : null;
     const type = "multiple";
 
-    // Valida os valores de entrada ou forneça padrões
+    
     if (!amount || !category || !difficulty) {
       console.error("Valores de entrada inválidos");
       return null;
     }
 
-    // Construir a URL da API
+    
     const url = "https://opentdb.com/api.php?amount=" + amount + "&category=" + category + "&difficulty=" + difficulty + "&type=" + type;
     const options = {
       method: "GET",
